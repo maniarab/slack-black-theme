@@ -40,10 +40,6 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
-nav {
-  background-color: black;
-}
-
 /* left scrollbar */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
    background-color: var(--background) !important;
@@ -691,4 +687,8 @@ ts-jumper, ts-jumper.active {
 }
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+
+nav.p-channel_sidebar {
+  background-color: black;
 }
